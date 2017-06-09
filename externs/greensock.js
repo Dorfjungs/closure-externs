@@ -44,6 +44,25 @@ com.greensock.utils;
 
 /** Easing */
 
+/** @type {Object} */
+com.greensock.easing.CustomEase;
+
+/**
+ * @param {string} name
+ * @param {string} easing
+ * @return {Function}
+ */
+com.greensock.easing.CustomEase.create = function(name, easing){};
+
+/**
+ * @param {Function=} func
+ * @param {Array=} extraParams
+ * @param {number=} type
+ * @param {number=} power
+ * @constructor
+ */
+com.greensock.easing.Ease = function(func, extraParams, type, power){};
+
 /**
  * @param {Function=} func
  * @param {Array=} extraParams
