@@ -36,3 +36,10 @@ Swiper.prototype.slideNext = function(){};
  * @public
  */
 Swiper.prototype.slidePrev = function(){};
+
+/**
+ * @public
+ * @param {boolean} deleteInstance
+ * @param {boolean} cleanupStyles
+ */
+Swiper.prototype.destroy = function(deleteInstance, cleanupStyles){};
