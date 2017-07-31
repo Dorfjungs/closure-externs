@@ -1593,6 +1593,12 @@ Swiper.prototype.slides;
 
 /**
  * @public
+ * @type {Array<Element>}
+ */
+Swiper.prototype.bullets;
+
+/**
+ * @public
  */
 Swiper.prototype.slideNext = function(){};
 
@@ -1607,3 +1613,18 @@ Swiper.prototype.slidePrev = function(){};
  * @param {boolean} cleanupStyles
  */
 Swiper.prototype.destroy = function(deleteInstance, cleanupStyles){};
+
+/**
+ * @public
+ */
+Swiper.prototype.startAutoplay = function(){};
+
+/**
+ * @public
+ */
+Swiper.prototype.stopAutoplay = function(){};
+
+/**
+ * @public
+ */
+Swiper.prototype.update = function(){};
