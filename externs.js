@@ -1508,7 +1508,24 @@ com.greensock.utils.SplitText.selector;
  * @param {Object=} vars
  */
 com.greensock.utils.SplitText.split = function(vars){};
+/**
+ * @externs
+ */
 
+/**
+ * @constructor
+ */
+var Hyphenator = function(){};
+
+/**
+ * @param {Object} config
+ */
+Hyphenator.config = function(config){};
+
+/**
+ *
+ */
+Hyphenator.run = function(){};
 /**
  * @externs
  */

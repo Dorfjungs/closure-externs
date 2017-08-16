@@ -1,6 +1,6 @@
 {
   "name": "dj-closure-externs",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Several closure compiler externs",
   "keywords": [
     "google",
