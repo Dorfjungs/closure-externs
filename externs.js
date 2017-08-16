@@ -1508,6 +1508,7 @@ com.greensock.utils.SplitText.selector;
  * @param {Object=} vars
  */
 com.greensock.utils.SplitText.split = function(vars){};
+
 /**
  * @externs
  */
@@ -1599,13 +1600,25 @@ Swiper.prototype.bullets;
 
 /**
  * @public
+ * @param {boolean} runCallbacks
+ * @param {number} speed
  */
-Swiper.prototype.slideNext = function(){};
+Swiper.prototype.slideNext = function(runCallbacks, speed){};
 
 /**
  * @public
+ * @param {boolean} runCallbacks
+ * @param {number} speed
  */
-Swiper.prototype.slidePrev = function(){};
+Swiper.prototype.slidePrev = function(runCallbacks, speed){};
+
+/**
+ * @public
+ * @param {number} index
+ * @param {number} speed
+ * @param {boolean} runCallbacks
+ */
+Swiper.prototype.slideTo = function(index, speed, runCallbacks){};
 
 /**
  * @public
