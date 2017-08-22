@@ -74,5 +74,6 @@ Swiper.prototype.stopAutoplay = function(){};
 
 /**
  * @public
+ * @param {boolean=} updateTranslate
  */
-Swiper.prototype.update = function(){};
+Swiper.prototype.update = function(updateTranslate){};
