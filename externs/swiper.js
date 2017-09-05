@@ -23,6 +23,12 @@ Swiper.prototype.realIndex;
 
 /**
  * @public
+ * @type {number}
+ */
+Swiper.prototype.activeIndex;
+
+/**
+ * @public
  * @type {Array<Element>}
  */
 Swiper.prototype.slides;
