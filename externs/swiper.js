@@ -83,3 +83,21 @@ Swiper.prototype.stopAutoplay = function(){};
  * @param {boolean=} updateTranslate
  */
 Swiper.prototype.update = function(updateTranslate){};
+
+/**
+ * @public
+ * @param {Element|string|Array<Element>} slide
+ */
+Swiper.prototype.prependSlide = function(slide){};
+
+/**
+ * @public
+ * @param {Element|string|Array<Element>} slide
+ */
+Swiper.prototype.appendSlide = function(slide){};
+
+/**
+ * @public
+ * @param {Array<number>|number} slideIndex
+ */
+Swiper.prototype.removeSlide = function(slideIndex){};
