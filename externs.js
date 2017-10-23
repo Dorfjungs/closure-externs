@@ -1,5 +1,16 @@
 /**
  * @externs
+ */
+
+/**
+ * @param {string} methodName
+ * @param {string} eventName
+ * @param {...?} var_args
+ * @return {?}
+ */
+function fbq(methodName, eventName, var_args) {}
+/**
+ * @externs
  *
  * Just a combined file of the greensock externs from netzbewegung.
  * Thanks to Ralf Sandig @ netzbewegung (https://github.com/netzbewegung/greensock-closure-externs)
