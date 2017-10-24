@@ -11,6 +11,26 @@
 function fbq(methodName, eventName, var_args) {}
 /**
  * @externs
+ */
+
+/**
+ * @constructor
+ * @param {Element} element
+ * @param {Object} config
+ */
+var flatpickr = function(element, config){};
+
+/**
+ * @public
+ */
+flatpickr.prototype.close = function(){};
+
+/**
+ * @public
+ */
+flatpickr.prototype.open = function(){};
+/**
+ * @externs
  *
  * Just a combined file of the greensock externs from netzbewegung.
  * Thanks to Ralf Sandig @ netzbewegung (https://github.com/netzbewegung/greensock-closure-externs)
