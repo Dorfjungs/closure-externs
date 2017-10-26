@@ -3,6 +3,21 @@
  */
 
 /**
+ * @constructor
+ */
+var uetq = function(){};
+
+/**
+ * @public
+ * @param {Object} config
+ * @return {?}
+ */
+uetq.push = function(config){};
+/**
+ * @externs
+ */
+
+/**
  * @param {string} methodName
  * @param {string} eventName
  * @param {...?} var_args
