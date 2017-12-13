@@ -37,6 +37,12 @@ Swiper.prototype.slides;
  * @public
  * @type {Array<Element>}
  */
+Swiper.prototype.container;
+
+/**
+ * @public
+ * @type {Array<Element>}
+ */
 Swiper.prototype.bullets;
 
 /**
@@ -101,3 +107,8 @@ Swiper.prototype.appendSlide = function(slide){};
  * @param {Array<number>|number} slideIndex
  */
 Swiper.prototype.removeSlide = function(slideIndex){};
+
+/**
+ * @public
+ */
+Swiper.prototype.updateAutoHeight = function(){};
