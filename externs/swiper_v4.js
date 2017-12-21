@@ -35,6 +35,12 @@ Swiper.prototype.slides;
 
 /**
  * @public
+ * @type {Object}
+ */
+Swiper.prototype.pagination;
+
+/**
+ * @public
  * @type {Element}
  */
 Swiper.prototype.pagination.el;
@@ -73,6 +79,12 @@ Swiper.prototype.slideTo = function(index, speed, runCallbacks){};
  * @param {boolean} cleanupStyles
  */
 Swiper.prototype.destroy = function(deleteInstance, cleanupStyles){};
+
+/**
+ * @public
+ * @type {Object}
+ */
+Swiper.prototype.autoplay;
 
 /**
  * @public
