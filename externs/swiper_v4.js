@@ -104,6 +104,11 @@ Swiper.prototype.update = function(){};
 /**
  * @public
  */
+Swiper.prototype.init = function(){};
+
+/**
+ * @public
+ */
 Swiper.prototype.updateSize = function(){}
 
 /**
