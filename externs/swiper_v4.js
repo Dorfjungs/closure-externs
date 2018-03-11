@@ -138,3 +138,10 @@ Swiper.prototype.appendSlide = function(slide){};
  * @param {Array<number>|number} slideIndex
  */
 Swiper.prototype.removeSlide = function(slideIndex){};
+
+/**
+ * @public
+ * @param {string} name
+ * @param {Function} callback
+ */
+Swiper.prototype.on = function(name, callback){};
