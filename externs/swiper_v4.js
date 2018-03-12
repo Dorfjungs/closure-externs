@@ -88,6 +88,12 @@ Swiper.prototype.autoplay;
 
 /**
  * @public
+ * @type {boolean}
+ */
+Swiper.prototype.autoplay.running;
+
+/**
+ * @public
  */
 Swiper.prototype.autoplay.start = function(){};
 
