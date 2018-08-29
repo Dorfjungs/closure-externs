@@ -1,6 +1,6 @@
 {
   "name": "dj-closure-externs",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "Several closure compiler externs",
   "keywords": [
     "google",
@@ -18,9 +18,9 @@
       "url": "http://www.dorfjungs.com/"
     },
     {
-        "name": "Joshua Keck",
-        "email": "joshua@dorfjungs.com",
-        "url": "http://www.dorfjungs.com/"
+      "name": "Joshua Keck",
+      "email": "joshua@dorfjungs.com",
+      "url": "http://www.dorfjungs.com/"
     }
   ],
   "license": "MIT",

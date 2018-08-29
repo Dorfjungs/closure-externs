@@ -28,8 +28,19 @@ Swiper.prototype.realIndex;
 Swiper.prototype.activeIndex;
 
 /**
+ * @constructor
+ * @extends {Array<HTMLElement>}
+ */
+var SwiperSlides = function(){};
+
+/**
+ * @param {function(number, HTMLElement)} callback
+ */
+SwiperSlides.prototype.each = function(callback){};
+
+/**
  * @public
- * @type {Array<Element>}
+ * @type {SwiperSlides}
  */
 Swiper.prototype.slides;
 
@@ -41,9 +52,15 @@ Swiper.prototype.pagination;
 
 /**
  * @public
- * @type {Element}
+ * @type {HTMLElement}
  */
 Swiper.prototype.pagination.el;
+
+/**
+ * @public
+ * @type {HTMLElement}
+ */
+Swiper.prototype.el;
 
 /**
  * @public
