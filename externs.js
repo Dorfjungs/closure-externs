@@ -1673,6 +1673,17 @@ Packery.prototype.addItems = function(elems){};
  */
 
 /**
+ * @param {string} methodName
+ * @param {string} eventName
+ * @param {...?} var_args
+ * @return {?}
+ */
+function pintrk(methodName, eventName, var_args) {}
+/**
+ * @externs
+ */
+
+/**
  * @constructor
  * @param {Element|string} target
  * @param {Object} config
@@ -1812,8 +1823,19 @@ Swiper.prototype.realIndex;
 Swiper.prototype.activeIndex;
 
 /**
+ * @constructor
+ * @extends {Array<HTMLElement>}
+ */
+var SwiperSlides = function(){};
+
+/**
+ * @param {function(number, HTMLElement)} callback
+ */
+SwiperSlides.prototype.each = function(callback){};
+
+/**
  * @public
- * @type {Array<Element>}
+ * @type {SwiperSlides}
  */
 Swiper.prototype.slides;
 
@@ -1825,9 +1847,15 @@ Swiper.prototype.pagination;
 
 /**
  * @public
- * @type {Element}
+ * @type {HTMLElement}
  */
 Swiper.prototype.pagination.el;
+
+/**
+ * @public
+ * @type {HTMLElement}
+ */
+Swiper.prototype.el;
 
 /**
  * @public
@@ -1872,6 +1900,12 @@ Swiper.prototype.autoplay;
 
 /**
  * @public
+ * @type {boolean}
+ */
+Swiper.prototype.autoplay.running;
+
+/**
+ * @public
  */
 Swiper.prototype.autoplay.start = function(){};
 
@@ -1884,6 +1918,11 @@ Swiper.prototype.autoplay.stop = function(){};
  * @public
  */
 Swiper.prototype.update = function(){};
+
+/**
+ * @public
+ */
+Swiper.prototype.init = function(){};
 
 /**
  * @public
@@ -1922,3 +1961,10 @@ Swiper.prototype.appendSlide = function(slide){};
  * @param {Array<number>|number} slideIndex
  */
 Swiper.prototype.removeSlide = function(slideIndex){};
+
+/**
+ * @public
+ * @param {string} name
+ * @param {Function} callback
+ */
+Swiper.prototype.on = function(name, callback){};
